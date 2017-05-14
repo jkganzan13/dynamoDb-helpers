@@ -1,0 +1,36 @@
+{
+  "name": "dynamodb-helpers",
+  "version": "1.0.0",
+  "description": "helper functions for AWS Dynamo DB",
+  "main": "src/index.js",
+  "scripts": {
+    "precommit": "npm test",
+    "test": "mocha --recursive --compilers js:babel-core/register --require test/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkganzan13/dynamoDb-helpers.git"
+  },
+  "keywords": [
+    "aws",
+    "dynamodb",
+    "helpers",
+    "js"
+  ],
+  "author": "jkganzan13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkganzan13/dynamoDb-helpers/issues"
+  },
+  "homepage": "https://github.com/jkganzan13/dynamoDb-helpers#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "husky": "^0.13.3",
+    "mocha": "^3.3.0",
+    "ramda": "^0.23.0"
+  }
+}
